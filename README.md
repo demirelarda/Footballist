@@ -13,7 +13,7 @@
 * MVVM pattern used in this app.
 * Room, Retrofit, RxJava, Glide, Coil used.
 * Used Room for a local database and saving the datas in device for 30 minutes. After 30 minutes datas are automatically updating by api.
-* Used Room for caching. And this reduces the api calls.
+* Used Room and Custom Shared Preferences for caching. And those reduce the api calls.
 
 
 ## Football Dictionary Structure:
