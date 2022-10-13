@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/standings_row_border"
+    android:layout_marginTop="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:id="@+id/tv_team_standing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center">
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_standings_teamLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_team_name_standing"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Liverpool"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_games_played_standing"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="7"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_games_won_standings"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_games_draw_standings"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_games_lost_standings"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:layout_marginStart="8dp"
+            android:id="@+id/tv_goals_avg_standings"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="22"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_points_standings"
+            android:layout_marginStart="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center|end"
+            android:text="77"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_winLoseForm_standings"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="WLWWW"
+            android:textSize="16sp">
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

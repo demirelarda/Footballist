@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/activity_football_main.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/activity_main.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/country_row.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/dialog_progress.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_base.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_football_dictionary.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_football_news.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_league.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_league_details.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/fragment_league_feed.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/AndroidStudioProjects/Footballist/app/src/main/res/layout/league_row.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/drawable-v24/app_gradient_color_background.xml" value="0.163" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.163" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/activity_football_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/activity_news_details.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/dialog_progress.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/fragment_football_news.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/fragment_league_standings.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/fragment_main_dictionary.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/fragment_news_details.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/fragment_stadium_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/layout/news_row.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/FootbalistV4/Footballist/app/src/main/res/menu/search_menu_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/activity_football_main.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/country_row.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/fragment_football_dictionary.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/fragment_league_feed.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/league_row.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/yadem/Desktop/Footballist/app/src/main/res/layout/league_standings_row.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/drawable-v24/city_list_border.xml" value="0.1715" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/drawable/standing_row_border.xml" value="0.1715" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/drawable/standings_row_border.xml" value="0.1715" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/activity_football_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_base.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_league_details.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_league_standings.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_player_stats.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_players.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_stadium_details.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/fragment_team_details.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/league_row.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/league_standings_row.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/layout/player_row.xml" value="0.2076923076923077" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yadem/Desktop/FootballistV2/Footballist/app/src/main/res/menu/search_menu_item.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

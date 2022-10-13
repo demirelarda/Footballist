@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Footballist</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="err_try_again">Error, Please Try Again!</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="no_league_data_available">No League Data Available For This Country</string>
+    <string name="no_standing_data_available">No Standing Data Available For This League</string>
+    <string name="team_country">Team Country:</string>
+    <string name="founding_date">Founding Date:</string>
+    <string name="short_name">Short Name:</string>
+    <string name="team_city">City:</string>
+    <string name="team_stadium">Stadium:</string>
+    <string name="see_player_details"><u>See Players&amp;Details</u></string>
+    <string name="see_stadium_details"><u>See Stadium Details</u></string>
+
+    <string name="player_name">Name:</string>
+    <string name="player_position">Position:</string>
+    <string name="player_age">Age:</string>
+
+    <string name="network_error_occurred">A network error occurred</string>
+
+    <string name="stadium_name">Name:</string>
+    <string name="stadium_capacity">Capacity:</string>
+    <string name="stadium_city">City:</string>
+    <string name="stadium_address">Address:</string>
+    <string name="stadium_surface">Surface Type:</string>
+
+
+    <string name="player_personal_information">Player\'s Personal Information</string>
+    <string name="player_nationality">Nationality:</string>
+    <string name="player_height">Height:</string>
+    <string name="player_weight">Weight:</string>
+    <string name="player_team">Team:</string>
+
+    <string name="player_match_stats">Player\'s Match Stats</string>
+    <string name="player_games">Games:</string>
+    <string name="player_shots">Shots:</string>
+    <string name="player_goals">Goals:</string>
+    <string name="player_passes">Passes:</string>
+    <string name="player_duels">Duels:</string>
+    <string name="player_dribbles">Dribbles:</string>
+    <string name="player_card">Cards:</string>
+    <string name="player_fouls">Fouls:</string>
+    <string name="goals_conceded">Goals Conceded:</string>
+    <string name="saved_shots">Saved Shots:</string>
+    <string name="assists">Assists:</string>
+
+    <string name="nav_bottom_home">Home</string>
+    <string name="nav_bottom_dictionary">Dictionary</string>
+    <string name="nav_bottom_favourites">Favourites</string>
+
+    <string name="dictionary_by_country">Search by Countries</string>
+    <string name="dictionary_big_six">Search by Leagues(6 Big Leagues)</string>
+    <string name="search_by_player">Search by Player Name</string>
+    <string name="search_by_coach">Search by Coach Name</string>
+
+    <string name="news">Latest News</string>
+    <string name="football_dictionary">Football Dictionary</string>
+    <string name="favourites">Favourites</string>
+
+    <string name="league_name">League Name:</string>
+    <string name="number_of_teams">Number of Teams:</string>
+    <string name="top_scorer">Current Top Scorer:</string>
+    <string name="top_assists">Current Top Assists:</string>
+
+
+    <string name="news_source">Source:</string>
+    <string name="news_more">More:</string>
+    <string name="news_date">Date:</string>
+
+    <string name="news_title_test_text">Kylian Mbappe at the centre of a PSG squad SPLIT with teammates angry at his privileged position - Daily Mail</string>
+
+
+</resources>

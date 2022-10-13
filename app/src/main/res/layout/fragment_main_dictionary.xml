@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainDictionaryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_search_by_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorBorder"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dictionary_by_country"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_by_leagues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorBorder"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/dictionary_big_six"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_by_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorBorder"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/search_by_player"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_by_coach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorBorder"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/search_by_coach"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

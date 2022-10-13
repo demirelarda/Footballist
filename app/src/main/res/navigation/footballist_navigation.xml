@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/footballist_navigation"
+    app:startDestination="@id/countryFragment">
+
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.mycompany.footballist.ui.CountryFragment"
+        android:label="fragment_country"
+        tools:layout="@layout/fragment_country" >
+        <action
+            android:id="@+id/action_countryFragment_to_leagueFeedFragment"
+            app:destination="@id/leagueFeedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leagueFeedFragment"
+        android:name="com.mycompany.footballist.ui.LeagueFeedFragment"
+        android:label="fragment_league_feed"
+        tools:layout="@layout/fragment_league_feed" >
+        <action
+            android:id="@+id/action_leagueFeedFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
+        <argument
+            android:name="countryCode"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_leagueFeedFragment_to_leagueStandingsFragment"
+            app:destination="@id/leagueStandingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leagueStandingsFragment"
+        android:name="com.mycompany.footballist.ui.LeagueStandingsFragment"
+        android:label="fragment_league_standings"
+        tools:layout="@layout/fragment_league_standings" >
+        <action
+            android:id="@+id/action_leagueStandingsFragment_to_leagueFeedFragment"
+            app:destination="@id/leagueFeedFragment" />
+        <argument
+            android:name="leagueId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="seasonNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_leagueStandingsFragment_to_teamDetailsFragment"
+            app:destination="@id/teamDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailsFragment"
+        android:name="com.mycompany.footballist.ui.TeamDetailsFragment"
+        android:label="fragment_team_details"
+        tools:layout="@layout/fragment_team_details" >
+        <action
+            android:id="@+id/action_teamDetailsFragment_to_leagueStandingsFragment"
+            app:destination="@id/leagueStandingsFragment" />
+        <argument
+            android:name="teamId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_teamDetailsFragment_to_stadiumDetailsFragment"
+            app:destination="@id/stadiumDetailsFragment" />
+        <action
+            android:id="@+id/action_teamDetailsFragment_to_playersFragment"
+            app:destination="@id/playersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playersFragment"
+        android:name="com.mycompany.footballist.ui.PlayersFragment"
+        android:label="fragment_players"
+        tools:layout="@layout/fragment_players" >
+        <argument
+            android:name="teamId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_playersFragment_to_playerStatsFragment"
+            app:destination="@id/playerStatsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stadiumDetailsFragment"
+        android:name="com.mycompany.footballist.ui.StadiumDetailsFragment"
+        android:label="fragment_stadium_details"
+        tools:layout="@layout/fragment_stadium_details" >
+        <argument
+            android:name="stadium"
+            app:argType="com.mycompany.footballist.model.teams.Venue"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerStatsFragment"
+        android:name="com.mycompany.footballist.ui.PlayerStatsFragment"
+        android:label="fragment_player_stats"
+        tools:layout="@layout/fragment_player_stats" >
+        <action
+            android:id="@+id/action_playerStatsFragment_to_playersFragment"
+            app:destination="@id/playersFragment" />
+        <argument
+            android:name="playerId"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="playerPosition"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="x" />
+    </fragment>
+</navigation>

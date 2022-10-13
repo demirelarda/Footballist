@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_bottom_home"
+        android:id="@+id/home_bottom_nav_menu"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+    <item android:title="@string/nav_bottom_dictionary"
+        android:id="@+id/dictionary_bottom_nav_menu"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
+        />
+
+
+
+</menu>
